@@ -12,8 +12,8 @@ categories = {
     }
 
 # path содержит первый аргумент, считаем, что это валидный адрес в файловой системе
-#path = sys.argv[1]
-path = "/home/ievgenii/Pictures"
+path = sys.argv[1]
+#path = "/home/ievgenii/Pictures"
 p = Path(path)
 
 # for i in p.iterdir():
